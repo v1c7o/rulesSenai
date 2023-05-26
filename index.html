@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Regras Senas</title>
+    <script src="js.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <section class="container texto-centralizado section-com-imagem " border="1">
+        <section >
+            <label id="regras">Esta pronto?</label>
+            <br>
+            <br>
+        </section>
+        <label class="container">
+            <span class="label">Checkbox</span>
+            <input type="checkbox" id="checkbox" required>
+            <div class="checkmark"></div>
+            <span class="error" id="checkboxError"></span>
+          </label>
+        
+        
+        <br>
+        <button id="voltar" onclick="atras()">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> back
+          </button>
+
+        <button id="avancar" onclick="frente()" disabled>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span> next
+          </button>
+    </section>
+</body>
+</html>
